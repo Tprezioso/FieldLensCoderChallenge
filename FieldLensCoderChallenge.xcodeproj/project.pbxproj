@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4944013C23832EE7946EF7 /* libPods-FieldLensCoderChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404B0CBC112C4BE004F646D7 /* libPods-FieldLensCoderChallenge.a */; };
+		9FD6F2351B23373100A8C6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F2341B23373100A8C6FF /* main.m */; };
+		9FD6F2381B23373100A8C6FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F2371B23373100A8C6FF /* AppDelegate.m */; };
+		9FD6F23E1B23373100A8C6FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6F23C1B23373100A8C6FF /* Main.storyboard */; };
+		9FD6F2401B23373100A8C6FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6F23F1B23373100A8C6FF /* Images.xcassets */; };
+		9FD6F2431B23373100A8C6FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6F2411B23373100A8C6FF /* LaunchScreen.xib */; };
+		9FD6F24F1B23373200A8C6FF /* FieldLensCoderChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F24E1B23373200A8C6FF /* FieldLensCoderChallengeTests.m */; };
+		9FD6F25A1B23379800A8C6FF /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F2591B23379800A8C6FF /* MainTableViewController.m */; };
+		9FD6F25D1B23693900A8C6FF /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FD6F2491B23373200A8C6FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FD6F2271B23373100A8C6FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FD6F22E1B23373100A8C6FF;
+			remoteInfo = FieldLensCoderChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22E8974FE767AB649FFCDF75 /* Pods-FieldLensCoderChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldLensCoderChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-FieldLensCoderChallenge/Pods-FieldLensCoderChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		404B0CBC112C4BE004F646D7 /* libPods-FieldLensCoderChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FieldLensCoderChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD6F22F1B23373100A8C6FF /* FieldLensCoderChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldLensCoderChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD6F2331B23373100A8C6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD6F2341B23373100A8C6FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FD6F2361B23373100A8C6FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FD6F2371B23373100A8C6FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FD6F23D1B23373100A8C6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FD6F23F1B23373100A8C6FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9FD6F2421B23373100A8C6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9FD6F2481B23373200A8C6FF /* FieldLensCoderChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldLensCoderChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD6F24D1B23373200A8C6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD6F24E1B23373200A8C6FF /* FieldLensCoderChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FieldLensCoderChallengeTests.m; sourceTree = "<group>"; };
+		9FD6F2581B23379800A8C6FF /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		9FD6F2591B23379800A8C6FF /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		9FD6F25B1B23693900A8C6FF /* MovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieTableViewCell.h; path = ../MovieTableViewCell.h; sourceTree = "<group>"; };
+		9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieTableViewCell.m; path = ../MovieTableViewCell.m; sourceTree = "<group>"; };
+		A623B625D1F01138A4E9BEB8 /* Pods-FieldLensCoderChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldLensCoderChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FieldLensCoderChallenge/Pods-FieldLensCoderChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FD6F22C1B23373100A8C6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4944013C23832EE7946EF7 /* libPods-FieldLensCoderChallenge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD6F2451B23373200A8C6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CC315372E860855E3910D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				404B0CBC112C4BE004F646D7 /* libPods-FieldLensCoderChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		750300FD82979D9FB36F17CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A623B625D1F01138A4E9BEB8 /* Pods-FieldLensCoderChallenge.debug.xcconfig */,
+				22E8974FE767AB649FFCDF75 /* Pods-FieldLensCoderChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FD6F2261B23373100A8C6FF = {
+			isa = PBXGroup;
+			children = (
+				9FD6F2311B23373100A8C6FF /* FieldLensCoderChallenge */,
+				9FD6F24B1B23373200A8C6FF /* FieldLensCoderChallengeTests */,
+				9FD6F2301B23373100A8C6FF /* Products */,
+				750300FD82979D9FB36F17CE /* Pods */,
+				08CC315372E860855E3910D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FD6F2301B23373100A8C6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6F22F1B23373100A8C6FF /* FieldLensCoderChallenge.app */,
+				9FD6F2481B23373200A8C6FF /* FieldLensCoderChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD6F2311B23373100A8C6FF /* FieldLensCoderChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6F2361B23373100A8C6FF /* AppDelegate.h */,
+				9FD6F2371B23373100A8C6FF /* AppDelegate.m */,
+				9FD6F2581B23379800A8C6FF /* MainTableViewController.h */,
+				9FD6F2591B23379800A8C6FF /* MainTableViewController.m */,
+				9FD6F25B1B23693900A8C6FF /* MovieTableViewCell.h */,
+				9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */,
+				9FD6F23C1B23373100A8C6FF /* Main.storyboard */,
+				9FD6F23F1B23373100A8C6FF /* Images.xcassets */,
+				9FD6F2411B23373100A8C6FF /* LaunchScreen.xib */,
+				9FD6F2321B23373100A8C6FF /* Supporting Files */,
+			);
+			path = FieldLensCoderChallenge;
+			sourceTree = "<group>";
+		};
+		9FD6F2321B23373100A8C6FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6F2331B23373100A8C6FF /* Info.plist */,
+				9FD6F2341B23373100A8C6FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FD6F24B1B23373200A8C6FF /* FieldLensCoderChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6F24E1B23373200A8C6FF /* FieldLensCoderChallengeTests.m */,
+				9FD6F24C1B23373200A8C6FF /* Supporting Files */,
+			);
+			path = FieldLensCoderChallengeTests;
+			sourceTree = "<group>";
+		};
+		9FD6F24C1B23373200A8C6FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6F24D1B23373200A8C6FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FD6F22E1B23373100A8C6FF /* FieldLensCoderChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD6F2521B23373200A8C6FF /* Build configuration list for PBXNativeTarget "FieldLensCoderChallenge" */;
+			buildPhases = (
+				23713164CF36402A8FC41D25 /* Check Pods Manifest.lock */,
+				9FD6F22B1B23373100A8C6FF /* Sources */,
+				9FD6F22C1B23373100A8C6FF /* Frameworks */,
+				9FD6F22D1B23373100A8C6FF /* Resources */,
+				D6C3466423C01A506366C63D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FieldLensCoderChallenge;
+			productName = FieldLensCoderChallenge;
+			productReference = 9FD6F22F1B23373100A8C6FF /* FieldLensCoderChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FD6F2471B23373200A8C6FF /* FieldLensCoderChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD6F2551B23373200A8C6FF /* Build configuration list for PBXNativeTarget "FieldLensCoderChallengeTests" */;
+			buildPhases = (
+				9FD6F2441B23373200A8C6FF /* Sources */,
+				9FD6F2451B23373200A8C6FF /* Frameworks */,
+				9FD6F2461B23373200A8C6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FD6F24A1B23373200A8C6FF /* PBXTargetDependency */,
+			);
+			name = FieldLensCoderChallengeTests;
+			productName = FieldLensCoderChallengeTests;
+			productReference = 9FD6F2481B23373200A8C6FF /* FieldLensCoderChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FD6F2271B23373100A8C6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Thomas Prezioso";
+				TargetAttributes = {
+					9FD6F22E1B23373100A8C6FF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9FD6F2471B23373200A8C6FF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 9FD6F22E1B23373100A8C6FF;
+					};
+				};
+			};
+			buildConfigurationList = 9FD6F22A1B23373100A8C6FF /* Build configuration list for PBXProject "FieldLensCoderChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FD6F2261B23373100A8C6FF;
+			productRefGroup = 9FD6F2301B23373100A8C6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FD6F22E1B23373100A8C6FF /* FieldLensCoderChallenge */,
+				9FD6F2471B23373200A8C6FF /* FieldLensCoderChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FD6F22D1B23373100A8C6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD6F23E1B23373100A8C6FF /* Main.storyboard in Resources */,
+				9FD6F2431B23373100A8C6FF /* LaunchScreen.xib in Resources */,
+				9FD6F2401B23373100A8C6FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD6F2461B23373200A8C6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23713164CF36402A8FC41D25 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C3466423C01A506366C63D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FieldLensCoderChallenge/Pods-FieldLensCoderChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD6F22B1B23373100A8C6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD6F2381B23373100A8C6FF /* AppDelegate.m in Sources */,
+				9FD6F2351B23373100A8C6FF /* main.m in Sources */,
+				9FD6F25D1B23693900A8C6FF /* MovieTableViewCell.m in Sources */,
+				9FD6F25A1B23379800A8C6FF /* MainTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD6F2441B23373200A8C6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD6F24F1B23373200A8C6FF /* FieldLensCoderChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FD6F24A1B23373200A8C6FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FD6F22E1B23373100A8C6FF /* FieldLensCoderChallenge */;
+			targetProxy = 9FD6F2491B23373200A8C6FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FD6F23C1B23373100A8C6FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD6F23D1B23373100A8C6FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FD6F2411B23373100A8C6FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD6F2421B23373100A8C6FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FD6F2501B23373200A8C6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FD6F2511B23373200A8C6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FD6F2531B23373200A8C6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A623B625D1F01138A4E9BEB8 /* Pods-FieldLensCoderChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FieldLensCoderChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FD6F2541B23373200A8C6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E8974FE767AB649FFCDF75 /* Pods-FieldLensCoderChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FieldLensCoderChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FD6F2561B23373200A8C6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FieldLensCoderChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FieldLensCoderChallenge.app/FieldLensCoderChallenge";
+			};
+			name = Debug;
+		};
+		9FD6F2571B23373200A8C6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FieldLensCoderChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FieldLensCoderChallenge.app/FieldLensCoderChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FD6F22A1B23373100A8C6FF /* Build configuration list for PBXProject "FieldLensCoderChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD6F2501B23373200A8C6FF /* Debug */,
+				9FD6F2511B23373200A8C6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD6F2521B23373200A8C6FF /* Build configuration list for PBXNativeTarget "FieldLensCoderChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD6F2531B23373200A8C6FF /* Debug */,
+				9FD6F2541B23373200A8C6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD6F2551B23373200A8C6FF /* Build configuration list for PBXNativeTarget "FieldLensCoderChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD6F2561B23373200A8C6FF /* Debug */,
+				9FD6F2571B23373200A8C6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FD6F2271B23373100A8C6FF /* Project object */;
+}
