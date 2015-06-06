@@ -16,6 +16,7 @@
 		9FD6F24F1B23373200A8C6FF /* FieldLensCoderChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F24E1B23373200A8C6FF /* FieldLensCoderChallengeTests.m */; };
 		9FD6F25A1B23379800A8C6FF /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F2591B23379800A8C6FF /* MainTableViewController.m */; };
 		9FD6F25D1B23693900A8C6FF /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */; };
+		9FD6F25F1B2377DC00A8C6FF /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6F25E1B2377DC00A8C6FF /* placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9FD6F2591B23379800A8C6FF /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		9FD6F25B1B23693900A8C6FF /* MovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieTableViewCell.h; path = ../MovieTableViewCell.h; sourceTree = "<group>"; };
 		9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieTableViewCell.m; path = ../MovieTableViewCell.m; sourceTree = "<group>"; };
+		9FD6F25E1B2377DC00A8C6FF /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		A623B625D1F01138A4E9BEB8 /* Pods-FieldLensCoderChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldLensCoderChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FieldLensCoderChallenge/Pods-FieldLensCoderChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				9FD6F25B1B23693900A8C6FF /* MovieTableViewCell.h */,
 				9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */,
 				9FD6F23C1B23373100A8C6FF /* Main.storyboard */,
+				9FD6F25E1B2377DC00A8C6FF /* placeholder.png */,
 				9FD6F23F1B23373100A8C6FF /* Images.xcassets */,
 				9FD6F2411B23373100A8C6FF /* LaunchScreen.xib */,
 				9FD6F2321B23373100A8C6FF /* Supporting Files */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD6F23E1B23373100A8C6FF /* Main.storyboard in Resources */,
+				9FD6F25F1B2377DC00A8C6FF /* placeholder.png in Resources */,
 				9FD6F2431B23373100A8C6FF /* LaunchScreen.xib in Resources */,
 				9FD6F2401B23373100A8C6FF /* Images.xcassets in Resources */,
 			);

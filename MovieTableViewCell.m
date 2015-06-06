@@ -12,6 +12,9 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    UIImage *placeholderImage = [UIImage imageNamed:@"placeholder"];
+    self.imageView.image = placeholderImage;
+
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
