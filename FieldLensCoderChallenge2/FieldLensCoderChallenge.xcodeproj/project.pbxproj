@@ -93,6 +93,36 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9F174D441B25EFD80067461B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6F2581B23379800A8C6FF /* MainTableViewController.h */,
+				9FD6F2591B23379800A8C6FF /* MainTableViewController.m */,
+				9FD6F25B1B23693900A8C6FF /* MovieTableViewCell.h */,
+				9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */,
+				9FD6F2621B24C4DC00A8C6FF /* MovieDetailViewController.h */,
+				9FD6F2631B24C4DC00A8C6FF /* MovieDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F174D451B25EFF00067461B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				886578071B236EB200B3203F /* APIClient.h */,
+				886578081B236EB200B3203F /* APIClient.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F174D461B25F0020067461B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6F23C1B23373100A8C6FF /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		9FD6F2261B23373100A8C6FF = {
 			isa = PBXGroup;
 			children = (
@@ -118,15 +148,9 @@
 			children = (
 				9FD6F2361B23373100A8C6FF /* AppDelegate.h */,
 				9FD6F2371B23373100A8C6FF /* AppDelegate.m */,
-				886578071B236EB200B3203F /* APIClient.h */,
-				886578081B236EB200B3203F /* APIClient.m */,
-				9FD6F2581B23379800A8C6FF /* MainTableViewController.h */,
-				9FD6F2591B23379800A8C6FF /* MainTableViewController.m */,
-				9FD6F25B1B23693900A8C6FF /* MovieTableViewCell.h */,
-				9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */,
-				9FD6F23C1B23373100A8C6FF /* Main.storyboard */,
-				9FD6F2621B24C4DC00A8C6FF /* MovieDetailViewController.h */,
-				9FD6F2631B24C4DC00A8C6FF /* MovieDetailViewController.m */,
+				9F174D451B25EFF00067461B /* Model */,
+				9F174D441B25EFD80067461B /* Controller */,
+				9F174D461B25F0020067461B /* View */,
 				9FD6F2601B23807C00A8C6FF /* placeholder.png */,
 				9FD6F23F1B23373100A8C6FF /* Images.xcassets */,
 				9FD6F2411B23373100A8C6FF /* LaunchScreen.xib */,
