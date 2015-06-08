@@ -98,10 +98,10 @@
 			children = (
 				9FD6F2581B23379800A8C6FF /* MainTableViewController.h */,
 				9FD6F2591B23379800A8C6FF /* MainTableViewController.m */,
-				9FD6F25B1B23693900A8C6FF /* MovieTableViewCell.h */,
-				9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */,
 				9FD6F2621B24C4DC00A8C6FF /* MovieDetailViewController.h */,
 				9FD6F2631B24C4DC00A8C6FF /* MovieDetailViewController.m */,
+				9FD6F25B1B23693900A8C6FF /* MovieTableViewCell.h */,
+				9FD6F25C1B23693900A8C6FF /* MovieTableViewCell.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
