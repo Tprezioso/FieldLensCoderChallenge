@@ -12,8 +12,10 @@
 #import "MovieDetailViewController.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AFNetworking/UIImageView+AFNetworking.h>
+#import <MBProgressHUD.h>
 
-@interface MainTableViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@interface MainTableViewController ()
 
 @property (strong, nonatomic)NSMutableArray *titles;
 @property (strong, nonatomic)NSMutableArray *images;
@@ -29,16 +31,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
+    NSOperationQueue *mainLoad = [[NSOperationQueue alloc]init];
+    
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    
     
     [APIClient getAllMoviesWithcompletionBlock:^(NSDictionary *arrays) {
+        
+        
         self.titles = arrays[@"titles"];
         self.images = arrays[@"images"];
         self.overview = arrays[@"overview"];
         [self.tableView reloadData];
+        
+        
+    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
     }];
+
+    
 }
+
 
 
 #pragma mark - Table view data source

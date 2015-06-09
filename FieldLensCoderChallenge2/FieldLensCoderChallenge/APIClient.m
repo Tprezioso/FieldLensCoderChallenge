@@ -7,7 +7,10 @@
 //
 
 #import "APIClient.h"
+#import "MainTableViewController.h"
 #import <AFNetworking.h>
+
+
 
 @implementation APIClient
 
@@ -15,6 +18,7 @@
 +(void)getAllMoviesWithcompletionBlock:(void (^)(NSDictionary *))completionBlock
 {
     NSString *url = @"http://api.themoviedb.org/3/movie/upcoming?api_key=45b53fed0a34751a8fda0043801d6e08";
+   
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
@@ -22,10 +26,12 @@
     
     manager.requestSerializer = serializer;
     
+   
     [manager GET:url
       parameters:nil
          success:^(NSURLSessionDataTask *task, id responseObject)
      {
+         
          NSMutableArray *titles = [[NSMutableArray alloc] init];
          NSMutableArray *images = [[NSMutableArray alloc] init];
          NSMutableArray *overview = [[NSMutableArray alloc]init];
