@@ -85,18 +85,11 @@
                                     <constraint firstAttribute="height" constant="157" id="r5z-iH-ZeT"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYy-Qk-9zi">
-                                <rect key="frame" x="167" y="246" width="266" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="266" id="7j9-gS-9Ob"/>
-                                    <constraint firstAttribute="height" constant="21" id="DqZ-BB-6j1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g25-1T-3Od">
-                                <rect key="frame" x="167" y="275" width="266" height="312"/>
+                                <rect key="frame" x="167" y="229" width="266" height="351"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="0qM-td-F88"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -104,20 +97,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="diR-8h-CJl" firstAttribute="centerX" secondItem="qYy-Qk-9zi" secondAttribute="centerX" id="0YP-NP-g8b"/>
-                            <constraint firstAttribute="bottom" secondItem="g25-1T-3Od" secondAttribute="bottom" constant="13" id="HiN-uB-ZY7"/>
-                            <constraint firstItem="g25-1T-3Od" firstAttribute="centerX" secondItem="DZh-tH-3um" secondAttribute="centerX" id="Nzq-rb-Oki"/>
-                            <constraint firstItem="g25-1T-3Od" firstAttribute="top" secondItem="qYy-Qk-9zi" secondAttribute="bottom" constant="8" symbolic="YES" id="WeY-Pk-Z9y"/>
-                            <constraint firstItem="qYy-Qk-9zi" firstAttribute="trailing" secondItem="g25-1T-3Od" secondAttribute="trailing" id="XQP-ba-A5q"/>
-                            <constraint firstItem="g25-1T-3Od" firstAttribute="leading" secondItem="qYy-Qk-9zi" secondAttribute="leading" id="bTr-lG-ssm"/>
+                            <constraint firstItem="g25-1T-3Od" firstAttribute="centerX" secondItem="DZh-tH-3um" secondAttribute="centerX" id="aHD-FQ-q8k"/>
+                            <constraint firstItem="g25-1T-3Od" firstAttribute="centerX" secondItem="diR-8h-CJl" secondAttribute="centerX" id="cE1-qD-vNj"/>
                             <constraint firstItem="diR-8h-CJl" firstAttribute="top" secondItem="h6g-q8-FRA" secondAttribute="bottom" id="deE-45-WgL"/>
-                            <constraint firstItem="qYy-Qk-9zi" firstAttribute="top" secondItem="diR-8h-CJl" secondAttribute="bottom" constant="25" id="kvu-sl-NyP"/>
+                            <constraint firstItem="g25-1T-3Od" firstAttribute="top" secondItem="diR-8h-CJl" secondAttribute="bottom" constant="8" symbolic="YES" id="sXK-xD-BLI"/>
+                            <constraint firstItem="eI8-sY-wVY" firstAttribute="top" secondItem="g25-1T-3Od" secondAttribute="bottom" constant="20" id="xoL-WJ-K8w"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="movieDescription" destination="g25-1T-3Od" id="ocr-Hr-5uj"/>
                         <outlet property="movieImage" destination="diR-8h-CJl" id="piE-Ki-hiS"/>
-                        <outlet property="movieTitle" destination="qYy-Qk-9zi" id="lk4-ym-40J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H8g-NV-pSd" userLabel="First Responder" sceneMemberID="firstResponder"/>

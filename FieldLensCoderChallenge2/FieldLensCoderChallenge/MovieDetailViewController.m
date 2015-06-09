@@ -27,7 +27,8 @@
 }
 -(void)setLabels{
     
-    self.movieTitle.text = self.titleOfMovie;
+    self.navigationItem.title = self.titleOfMovie;
+    //self.movieTitle.text = self.titleOfMovie;
    
     self.movieImage.image = self.moviePosterImage;
     
