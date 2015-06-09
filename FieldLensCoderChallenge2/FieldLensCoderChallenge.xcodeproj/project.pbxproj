@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D4944013C23832EE7946EF7 /* libPods-FieldLensCoderChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404B0CBC112C4BE004F646D7 /* libPods-FieldLensCoderChallenge.a */; };
 		886578091B236EB200B3203F /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 886578081B236EB200B3203F /* APIClient.m */; };
+		9F9F72171B2770F000401E31 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F72161B2770F000401E31 /* Constants.m */; };
 		9FD6F2351B23373100A8C6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F2341B23373100A8C6FF /* main.m */; };
 		9FD6F2381B23373100A8C6FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6F2371B23373100A8C6FF /* AppDelegate.m */; };
 		9FD6F23E1B23373100A8C6FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD6F23C1B23373100A8C6FF /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 		404B0CBC112C4BE004F646D7 /* libPods-FieldLensCoderChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FieldLensCoderChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886578071B236EB200B3203F /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
 		886578081B236EB200B3203F /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		9F9F72151B2770F000401E31 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9F9F72161B2770F000401E31 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		9FD6F22F1B23373100A8C6FF /* FieldLensCoderChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldLensCoderChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD6F2331B23373100A8C6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FD6F2341B23373100A8C6FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,6 +126,15 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		9F9F72181B27726D00401E31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F72151B2770F000401E31 /* Constants.h */,
+				9F9F72161B2770F000401E31 /* Constants.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		9FD6F2261B23373100A8C6FF = {
 			isa = PBXGroup;
 			children = (
@@ -151,9 +163,10 @@
 				9F174D451B25EFF00067461B /* Model */,
 				9F174D441B25EFD80067461B /* Controller */,
 				9F174D461B25F0020067461B /* View */,
-				9FD6F2601B23807C00A8C6FF /* placeholder.png */,
-				9FD6F23F1B23373100A8C6FF /* Images.xcassets */,
+				9F9F72181B27726D00401E31 /* Helpers */,
 				9FD6F2411B23373100A8C6FF /* LaunchScreen.xib */,
+				9FD6F23F1B23373100A8C6FF /* Images.xcassets */,
+				9FD6F2601B23807C00A8C6FF /* placeholder.png */,
 				9FD6F2321B23373100A8C6FF /* Supporting Files */,
 			);
 			path = FieldLensCoderChallenge;
@@ -326,6 +339,7 @@
 				9FD6F2381B23373100A8C6FF /* AppDelegate.m in Sources */,
 				9FD6F2351B23373100A8C6FF /* main.m in Sources */,
 				9FD6F25D1B23693900A8C6FF /* MovieTableViewCell.m in Sources */,
+				9F9F72171B2770F000401E31 /* Constants.m in Sources */,
 				9FD6F25A1B23379800A8C6FF /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
