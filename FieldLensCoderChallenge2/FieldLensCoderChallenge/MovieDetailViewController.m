@@ -11,7 +11,6 @@
 
 @interface MovieDetailViewController ()
 @property (strong, nonatomic) IBOutlet UIImageView *movieImage;
-@property (strong, nonatomic) IBOutlet UILabel *movieTitle;
 @property (strong, nonatomic) IBOutlet UILabel *movieDescription;
 
 @end
@@ -28,7 +27,7 @@
 -(void)setLabels{
     
     self.navigationItem.title = self.titleOfMovie;
-    //self.movieTitle.text = self.titleOfMovie;
+    
    
     self.movieImage.image = self.moviePosterImage;
     
